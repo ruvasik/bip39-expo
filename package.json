@@ -1,6 +1,6 @@
 {
   "name": "@ruvasik/bip39-expo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Expo wrap module for expo react native apps",
   "main": "build/bip39.js",
   "types": "build/bip39.d.ts",
@@ -14,7 +14,8 @@
     "prepare": "expo-module prepare && cp shim.js build/",
     "prepublishOnly": "expo-module prepublishOnly",
     "expo-module": "expo-module",
-    "postinstall": "rm node_modules/*/.babelrc && rn-nodeify --install buffer,stream --hack"
+    "localinstall": "rm node_modules/*/.babelrc && rn-nodeify --install buffer,stream --hack",
+    "postinstall": "rn-nodeify --install buffer,stream --hack"
   },
   "keywords": [
     "bip39",
