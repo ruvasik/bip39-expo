@@ -1,0 +1,10 @@
+{
+  "name": "bip39-expo",
+  "platforms": ["ios", "android", "web"],
+  "ios": {
+    "modules": ["BIP39ExpoPackage"]
+  },
+  "android": {
+    "modules": ["expo.modules.bip39.BIP39ExpoPackage"]
+  }
+}
