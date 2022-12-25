@@ -1,6 +1,6 @@
 {
   "name": "@ruvasik/bip39-expo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Expo wrap module for expo react native apps",
   "main": "build/bip39.js",
   "types": "build/bip39.d.ts",
@@ -39,11 +39,11 @@
     "preset": "expo-module-scripts"
   },
   "devDependencies": {
-    "expo-module-scripts": "^3.0.0",
-    "rn-nodeify": "^10.3.0"
+    "expo-module-scripts": "^3.0.0"
   },
   "dependencies": {
     "bip39": "^3.0.4",
+    "rn-nodeify": "^10.3.0",
     "react-native-crypto": "^2.2.0",
     "react-native-get-random-values": "^1.8.0",
     "react-native-randombytes": "^3.6.1",
