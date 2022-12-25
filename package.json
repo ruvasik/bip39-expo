@@ -1,5 +1,5 @@
 {
-  "name": "bip39-expo",
+  "name": "@ruvasik/bip39-expo",
   "version": "1.0.0",
   "description": "Expo wrap module for expo react native apps",
   "main": "build/bip39.js",
@@ -26,7 +26,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:ruvasik/bip39-expo.git"
+    "url": "git+ssh://git@github.com/ruvasik/bip39-expo.git"
   },
   "bugs": {
     "url": "https://github.com/ruvasik/bip39-expo/issues"
